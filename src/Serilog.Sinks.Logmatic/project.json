@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Serilog": "2.2.1",
+    "Serilog.Sinks.Async": "1.0.1-dev-00004",
+    "Serilog.Sinks.PeriodicBatching": "2.0.0",
+    "System.Linq": "4.1.0",
+    "System.Runtime": "4.1.0",
+    "System.Text.Encoding.Extensions": "4.0.11"
+  },
+  "frameworks": {
+    "net4.5": {},
+    "netstandard1.4": {
+      "dependencies": {
+        "System.Net.Security": "4.0.0",
+        "System.Net.Sockets": "4.1.0",
+        "System.Threading.Thread": "4.0.0"
+      }
+    }
+  }
+}
