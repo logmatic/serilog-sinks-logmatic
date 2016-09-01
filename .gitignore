@@ -242,4 +242,4 @@ ModelManifest.xml
 .paket/paket.exe
 
 # FAKE - F# Make
-.fake/src/serilog-generator
+src/serilog-generator
