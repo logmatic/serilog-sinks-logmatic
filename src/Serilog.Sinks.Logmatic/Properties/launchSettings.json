@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "newProfile1": {
+      "executablePath": "C:\\Users\\gpolaert\\.nuget\\packages\\serilog-generator\\1.0.10\\tools\\serilog-generator.exe",
+      "commandLineArgs": "--using=\"Serilog.Sinks.Logmatic\" --write-to:Logmatic.theAPIKey=\"KqjjK4I7QXqwJeaPxmCqkw\"",
+      "workingDirectory": "C:\\Users\\gpolaert\\Documents\\Visual Studio 2015\\Projects\\serilog-sinks-logmatic\\src\\Serilog.Sinks.Logmatic\\bin\\Debug\\netstandard1.6"
+    },
+    "newProfile2": {
+      "commandName": "Project"
+    }
+  }
+}
