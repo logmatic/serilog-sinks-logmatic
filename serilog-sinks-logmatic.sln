@@ -8,11 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E78562D7-3759-49A2-89CF-4C868CCADB23}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		LICENCE.fs = LICENCE.fs
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Serilog.Sinks.Logmatic", "src\Serilog.Sinks.Logmatic\Serilog.Sinks.Logmatic.xproj", "{2D0CCC53-5B29-4F05-AA6F-B342EB6E32EE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serilog-generator", "src\serilog-generator\serilog-generator.csproj", "{7B89F65F-BAB0-4969-9349-65BC44A41D4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,22 +36,11 @@ Global
 		{2D0CCC53-5B29-4F05-AA6F-B342EB6E32EE}.Release|x64.Build.0 = Release|Any CPU
 		{2D0CCC53-5B29-4F05-AA6F-B342EB6E32EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{2D0CCC53-5B29-4F05-AA6F-B342EB6E32EE}.Release|x86.Build.0 = Release|Any CPU
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Debug|x64.ActiveCfg = Debug|x64
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Debug|x64.Build.0 = Debug|x64
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Debug|x86.ActiveCfg = Debug|x86
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Debug|x86.Build.0 = Debug|x86
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Release|Any CPU.ActiveCfg = Release|x86
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Release|x64.ActiveCfg = Release|x64
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Release|x64.Build.0 = Release|x64
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Release|x86.ActiveCfg = Release|x86
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2D0CCC53-5B29-4F05-AA6F-B342EB6E32EE} = {E4C32DEC-E4A3-4B31-9D19-4DA747A163DB}
-		{7B89F65F-BAB0-4969-9349-65BC44A41D4D} = {E4C32DEC-E4A3-4B31-9D19-4DA747A163DB}
 	EndGlobalSection
 EndGlobal

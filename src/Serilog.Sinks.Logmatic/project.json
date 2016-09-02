@@ -1,9 +1,17 @@
 {
+  "title": "Serilog Sink Logmatic",
   "version": "1.0.0-*",
+  "description": "Serilog event sink that send to the http://logmatioc.io.",
+  "authors": [ "Serilog Contributors", "Logmatic.io" ],
+  "packOptions": {
+    "tags": [ "serilog", "logging", "logmatic", "sink" ],
+    "projectUrl": "https://github.com/serilog/serilog-sinks-logmatic",
+    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+    "iconUrl": "http://serilog.net/images/serilog-sink-nuget.png"
+  },
 
   "dependencies": {
     "Serilog": "2.2.1",
-    "Serilog.Sinks.Async": "1.0.1-dev-00004",
     "Serilog.Sinks.PeriodicBatching": "2.0.0",
     "System.Linq": "4.1.0",
     "System.Runtime": "4.1.0",
