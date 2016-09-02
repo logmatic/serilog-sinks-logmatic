@@ -1,18 +1,30 @@
-﻿# Serilog.Sinks.Logmatic
+# Serilog.Sinks.Logmatic
 
 **ADD NUGET STATUS** / **ADD BUILD STATUS**
 
 A Serilog sink that send events and logs staight away to [Logmatic.io](http://logmatic.io).
+By default the sink will use a TCP connection over SSL.
 
-By default the sink will use a TCP token over SSL.
 
 **Package** - [Serilog.Sinks.Logmatic](http://nuget.org/packages/serilog.sinks.logmatic)
 | **Platforms** - .NET 4.5
 
-```csharp
 
+```csharp
 var log = new LoggerConfiguration()
     .WriteTo.Logmatic("<API_KEY>")
     .CreateLogger();
 ```
 
+You can override the default behavior by manually specifing the following properties.
+
+```csharp
+var log = new LoggerConfiguration()
+    .WriteTo.Logmatic(
+        "<API_KEY>",
+        ip: "app.logmatic.io",
+        port: 10515,
+        useSSL: true
+    )
+    .CreateLogger();
+```
