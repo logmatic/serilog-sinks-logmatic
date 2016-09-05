@@ -1,11 +1,11 @@
 {
   "title": "Serilog Sink Logmatic",
   "version": "1.0.0-*",
-  "description": "Serilog event sink that send to the http://logmatioc.io.",
+  "description": "Serilog event sink that send to the http://logmatic.io.",
   "authors": [ "Serilog Contributors", "Logmatic.io" ],
   "packOptions": {
     "tags": [ "serilog", "logging", "logmatic", "sink" ],
-    "projectUrl": "https://github.com/serilog/serilog-sinks-logmatic",
+    "projectUrl": "https://github.com/logmatic/serilog-sinks-logmatic",
     "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
     "iconUrl": "http://serilog.net/images/serilog-sink-nuget.png"
   },
