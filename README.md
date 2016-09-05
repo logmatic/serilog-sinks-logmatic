@@ -1,6 +1,8 @@
 # Serilog.Sinks.Logmatic
 
-[![NuGet Status](http://nugetstatus.com/serilog.sinks.logmatic.png)](http://nugetstatus.com/packages/serilog.sinks.logmatic) | [![Build status](https://ci.appveyor.com/api/projects/status/ntpaealecc1arba4?svg=true)](https://ci.appveyor.com/project/gpolaert/serilog-sinks-logmatic)
+
+[![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.Logmatic.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.Logmatic/)
+[![Build status](https://ci.appveyor.com/api/projects/status/ntpaealecc1arba4?svg=true)](https://ci.appveyor.com/project/gpolaert/serilog-sinks-logmatic)
 
 
 A Serilog sink that send events and logs staight away to [Logmatic.io](http://logmatic.io).
