@@ -1,6 +1,6 @@
 {
   "title": "Serilog Sink Logmatic",
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "description": "Serilog event sink that send to the http://logmatic.io.",
   "authors": [ "Serilog Contributors", "Logmatic.io" ],
   "packOptions": {
