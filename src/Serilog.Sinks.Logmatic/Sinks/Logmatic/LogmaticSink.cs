@@ -12,9 +12,12 @@ namespace Serilog.Sinks.Logmatic
     public class LogmaticSink : PeriodicBatchingSink
     {
 
+        private const string MARKER_FIELD = "@marker";
+
         private readonly string _token;
         private readonly JsonFormatter _formatter = new JsonFormatter();
         private LogmaticClient _client;
+        private readonly SequenceValue _markers;
         private readonly LogmaticClientConfiguration _clientConfig;
 
 
@@ -22,6 +25,9 @@ namespace Serilog.Sinks.Logmatic
         {
             _token = token;
             _clientConfig = clientConfiguration;
+
+            var markers = new[] { "sourcode", "dotnet" };
+            _markers = new SequenceValue(markers.Select(i => new ScalarValue(i)));
         }
 
 
@@ -46,6 +52,7 @@ namespace Serilog.Sinks.Logmatic
             foreach (var logEvent in events)
             {
                 payload.Append(_token).Append(" ");
+                logEvent.AddOrUpdateProperty(new LogEventProperty(MARKER_FIELD, _markers));
                 _formatter.Format(logEvent, sw);
             }
             // send the event
